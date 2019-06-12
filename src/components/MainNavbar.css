@@ -1,0 +1,15 @@
+.MainNavbar {
+   padding-top: 5px;
+   padding-bottom: 10px;
+   display: inline-block;
+   cursor: pointer;
+}
+
+#homeLogo {
+   width: 150px;
+   height: 150px;
+}
+
+.header{
+   padding: 0px;
+}

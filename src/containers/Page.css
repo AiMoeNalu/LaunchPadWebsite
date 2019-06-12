@@ -1,0 +1,19 @@
+.formatAll {
+    margin-top: 1px;
+}
+
+.formatLeft {
+    margin-left: 4px;
+}
+
+.formatRight {
+    margin-right: 4px;
+}
+
+.outline {
+    height: max-content;
+}
+
+p {
+    margin-bottom: 0px;
+}
