@@ -13,8 +13,8 @@ const MainNavbar = ({ onSelect }) => {
         <>
             <Row className="header">
                 <Col></Col>
-                    <Col xs={10}>
-                        <Navbar className="MainNavbar bg-white black-80 tc pv4 avenir">
+                    <Col xs={12} md={9} lg={12}>
+                        <Navbar className="MainNavbar black-80 tc pv4 avenir">
                             <Navbar.Brand
                             // href="#Home"
                             data-value="HOME_SELECTED"
@@ -33,37 +33,37 @@ const MainNavbar = ({ onSelect }) => {
                             <Nav className="bt bb tc mw7 center mt4">
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l"
-                                // href="#Home" 
+                                href="#Home" 
                                 data-value="HOME_SELECTED"
                                 onClick={onSelect} >Home</Nav.Link>
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-                                // href="#Buy-Tickets" 
+                                href="#Buy-Tickets" 
                                 data-value="BUY_TICKETS_SELECTED"
                                 onClick={onSelect} >Buy Tickets</Nav.Link>
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
-                                // href="#Gift-Cards-&-Memberships"
+                                href="#Gift-Cards-&-Memberships"
                                 data-value="GIFTCARDS_MEMBERSHIPS_SELECTED" 
                                 onClick={onSelect} >Gift Cards & Memberships</Nav.Link>
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
-                                // href="#Waivers" 
+                                href="#Waivers" 
                                 data-value="WAIVERS_SELECTED"
                                 onClick={onSelect} >Waivers</Nav.Link>
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
-                                // href="#Prices-&-Promos" 
+                                href="#Prices-&-Promos" 
                                 data-value="PRICES_PROMOS_SELCTED"
                                 onClick={onSelect} >Prices & Promos</Nav.Link>
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-                                // href="#Parties-&-Events" 
+                                href="#Parties-&-Events" 
                                 data-value="PARTIES_EVENTS_SELECTED"
                                 onClick={onSelect} >Parties & Events</Nav.Link>
                                 <Nav.Link 
                                 className="f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l"
-                                // href="#More" 
+                                href="#More" 
                                 data-value="MORE_SELECTED"
                                 onClick={onSelect} >More</Nav.Link>
                             </Nav>

@@ -3,13 +3,13 @@ import React from 'react';
 import MainNavbar from '../components/MainNavbar';
 import Footer from '../components/Footer';
 
-import HomePage from '../components/HomePage';
-import BuyTicketsPage from '../components/BuyTicketsPage';
-import GiftCardsAndMembershipsPage from '../components/GiftCardsAndMembershipsPage';
-import WaiversPage from '../components/WaiversPage';
-import PricesAndPromosPage from '../components/PricesAndPromosPage';
-import PartiesAndEventsPage from '../components/PartiesAndEventsPage';
-import MorePage from '../components/MorePage';
+import HomePage from '../components/pages/HomePage';
+import BuyTicketsPage from '../components/pages/BuyTicketsPage';
+import GiftCardsAndMembershipsPage from '../components/pages/GiftCardsAndMembershipsPage';
+import WaiversPage from '../components/pages/WaiversPage';
+import PricesAndPromosPage from '../components/pages/PricesAndPromosPage';
+import PartiesAndEventsPage from '../components/pages/PartiesAndEventsPage';
+import MorePage from '../components/pages/MorePage';
 
 import Page from './Page';
 
