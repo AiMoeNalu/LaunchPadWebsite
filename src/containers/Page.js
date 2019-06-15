@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Calendar from '../components/Calendar'
+
 import 'tachyons';
 import './Page.css';
 
@@ -9,7 +11,7 @@ const Page = ({toRender}) => {
             <div 
             id="LeftSidePage"
             class="outline w-20 pa3 mr2 formatLeft">
-                <p>-Calendar</p>
+                <Calendar/>
             </div>
             <div 
             id="MainPage"
