@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Calendar from '../components/Calendar'
+import Calendar from '../Calendar/Calendar'
 
-import 'tachyons';
 import './Page.css';
 
 const Page = ({toRender}) => {

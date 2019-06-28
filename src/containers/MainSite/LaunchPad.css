@@ -1,0 +1,19 @@
+.main-background {
+    background: linear-gradient(90deg, rgba(255,156,21,1) 35%, rgba(172,159,144,1) 50%, rgba(0,149,255,1) 65%);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+	
+    /* Preserve aspet ratio */
+    min-width: 100%;
+     min-height: 100%;
+}
+
+.particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
